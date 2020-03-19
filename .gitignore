@@ -1,0 +1,49 @@
+# Ignore Everything
+/*
+
+# Except:
+## Sources
+!/src
+!/packages
+
+## Git
+!/.gitattributes
+!/.gitignore
+!/.gitmodules
+
+## GitHub
+!/.github
+!/LICENSE*
+!/README*
+
+## npm
+!/.*rc
+!/.*rc.js
+!/.*rc.yml
+!/.*rc.json
+!/*config
+!/*config.js
+!/*config.yml
+!/*config.json
+!/gulpfile*
+!/package*
+!/pnpm*
+!/.*ignore
+
+### Ignore `node_modules`:
+/**/node_modules/**
+/node_modules/**
+
+## Travis CI
+!/.travis.yml
+
+# Unwanted crap
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.log
