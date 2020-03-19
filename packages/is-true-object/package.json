@@ -1,6 +1,6 @@
 {
 	"name": "is-true-object",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Returns `true` if target is a real non-`null` object.",
 	"author": "ExE Boss",
 	"license": "LGPL-3.0",

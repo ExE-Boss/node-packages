@@ -4,3 +4,7 @@ ExE Boss’s miscellaneous Node packages<br/>
 ======================================
 
 Miscellaneous Node packages I’ve developed.
+
+## Packages
+
+-   [`is-true-object`](./packages/is-true-object)
