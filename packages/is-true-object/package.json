@@ -1,0 +1,29 @@
+{
+	"name": "is-true-object",
+	"version": "0.0.0",
+	"description": "Returns `true` if target is a real non-`null` object.",
+	"author": "ExE Boss",
+	"license": "LGPL-3.0",
+	"main": "index.cjs",
+	"types": "index.d.ts",
+	"type": "module",
+
+	"scripts": {
+		"test": "package-preview && node --allow-natives-syntax ./__tests__/index.js"
+	},
+	"keywords": [
+		"is-object",
+		"document.all",
+		"is-html-dda",
+		"undetectable"
+	],
+
+	"homepage": "https://github.com/ExE-Boss/node-packages/tree/master/packages/is-true-object",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ExE-Boss/node-packages.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ExE-Boss/node-packages/issues"
+	}
+}
