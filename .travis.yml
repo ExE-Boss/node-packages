@@ -1,0 +1,28 @@
+# Configuration
+language: node_js
+
+node_js: [
+	lts/*,
+	node,
+]
+
+# The pre-install script
+before_install: [
+	npm i -g pnpm,
+]
+
+# The install script
+install: [
+	pnpm recursive install,
+]
+
+# The build script
+script: [
+	pnpm recursive run build,
+	pnpm recursive run test,
+]
+
+# Disable email notifications
+notifications: {
+	email: false
+}

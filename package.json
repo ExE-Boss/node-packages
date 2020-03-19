@@ -1,0 +1,31 @@
+{
+	"name": "@exe-boss/x.node-packages",
+	"author": "ExE Boss",
+	"license": "LGPL-3.0",
+	"private": true,
+
+	"scripts": {
+		"preinstall": "node -e \"!process.env.npm_config_user_agent.startsWith('pnpm/') && !console.log('Use \\`npx pnpm install\\` to install dependencies in this repository\\n') && process.exit(1)\"",
+		"build": "tsc"
+	},
+
+	"homepage": "https://github.com/ExE-Boss/node-packages#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ExE-Boss/node-packages.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ExE-Boss/node-packages/issues"
+	},
+
+	"devDependencies": {
+		"@exe-boss/eslint-config": "^0.2.2",
+		"@exe-boss/renovate-config": "^0.1.0",
+		"@types/tape": "^4.2.34",
+		"@types/tape-catch": "^1.0.0",
+		"package-preview": "^3.0.0",
+		"tape": "^4.13.2",
+		"tape-catch": "^1.0.6",
+		"typescript": "^3.8.3"
+	}
+}

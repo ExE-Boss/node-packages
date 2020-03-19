@@ -1,0 +1,7 @@
+packages: [
+	".",
+	"./packages/**",
+	"!**/test/**",
+	"!**/__package_previews__/**",
+	"!resolve-link-target/node_modules_link/**",
+]
