@@ -1,6 +1,6 @@
 {
 	"name": "reflect-util",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "ES2015 Reflect-style utilities and extensions",
 	"author": "ExE Boss",
 	"license": "LGPL-3.0-or-later",
