@@ -1,0 +1,17 @@
+{
+	"name": "@exe-boss/x.node-packages.tsconfig",
+	"version": "0.0.0",
+	"author": "ExE Boss",
+	"license": "LGPL-3.0-or-later",
+	"private": true,
+	"main": "tsconfig.json",
+
+	"homepage": "https://github.com/ExE-Boss/node-packages/tree/master/private-packages/tsconfig",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ExE-Boss/node-packages.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ExE-Boss/node-packages/issues"
+	}
+}

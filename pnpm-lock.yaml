@@ -3,6 +3,7 @@ importers:
     devDependencies:
       '@exe-boss/eslint-config': 0.2.2
       '@exe-boss/renovate-config': 0.1.0
+      '@exe-boss/x.node-packages.tsconfig': 'link:private-packages/tsconfig'
       '@types/tape': 4.2.34
       '@types/tape-catch': 1.0.0
       package-preview: 3.0.0
@@ -12,6 +13,7 @@ importers:
     specifiers:
       '@exe-boss/eslint-config': ^0.2.2
       '@exe-boss/renovate-config': ^0.1.0
+      '@exe-boss/x.node-packages.tsconfig': 'workspace:*'
       '@types/tape': ^4.2.34
       '@types/tape-catch': ^1.0.0
       package-preview: ^3.0.0
@@ -19,6 +21,8 @@ importers:
       tape-catch: ^1.0.6
       typescript: ^3.8.3
   packages/is-true-object:
+    specifiers: {}
+  private-packages/tsconfig:
     specifiers: {}
 lockfileVersion: 5.1
 packages:

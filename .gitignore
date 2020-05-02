@@ -5,6 +5,7 @@
 ## Sources
 !/src
 !/packages
+!/private-packages
 
 ## Git
 !/.gitattributes

@@ -1,5 +1,4 @@
 {
 	"extends": "@exe-boss/x.node-packages.tsconfig",
-	"exclude": ["**/__tests__/**"],
 	"include": ["**/*.cjs", "**/*.js", "**/*.ts"]
 }
