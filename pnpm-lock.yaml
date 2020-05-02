@@ -22,6 +22,11 @@ importers:
       typescript: ^3.8.3
   packages/is-true-object:
     specifiers: {}
+  packages/reflect-util:
+    dependencies:
+      is-true-object: 'link:../is-true-object'
+    specifiers:
+      is-true-object: 'workspace:*'
   private-packages/tsconfig:
     specifiers: {}
 lockfileVersion: 5.1

@@ -1,0 +1,30 @@
+{
+	"name": "reflect-util",
+	"version": "0.0.0",
+	"description": "ES2015 Reflect-style utilities and extensions",
+	"author": "ExE Boss",
+	"license": "LGPL-3.0-or-later",
+	"main": "index.cjs",
+	"types": "index.d.ts",
+	"type": "module",
+
+	"scripts": {
+		"test": "package-preview && node ./__tests__/index.js"
+	},
+	"keywords": [
+		"reflect"
+	],
+
+	"homepage": "https://github.com/ExE-Boss/node-packages/tree/master/packages/reflect-util",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ExE-Boss/node-packages.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ExE-Boss/node-packages/issues"
+	},
+
+	"dependencies": {
+		"is-true-object": "workspace:*"
+	}
+}

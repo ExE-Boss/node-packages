@@ -1,0 +1,4 @@
+{
+	"extends": "@exe-boss/x.node-packages.tsconfig",
+	"include": ["**/*.cjs", "**/*.js", "**/*.ts"]
+}
