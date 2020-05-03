@@ -25,7 +25,7 @@
 		"@types/tape": "^4.2.34",
 		"@types/tape-catch": "^1.0.0",
 		"package-preview": "^3.0.0",
-		"tape": "^4.13.2",
+		"tape": "^5.0.0",
 		"tape-catch": "^1.0.6",
 		"typescript": "^3.8.3"
 	}
