@@ -9,7 +9,7 @@ importers:
       package-preview: 3.0.0
       tape: 5.0.0
       tape-catch: 1.0.6_tape@5.0.0
-      typescript: 3.8.3
+      typescript: 4.0.5
     specifiers:
       '@exe-boss/eslint-config': ^0.2.2
       '@exe-boss/renovate-config': ^0.1.0
@@ -19,7 +19,7 @@ importers:
       package-preview: ^3.0.0
       tape: ^5.0.0
       tape-catch: ^1.0.6
-      typescript: ^3.8.3
+      typescript: ^4.0.0
   packages/is-true-object:
     specifiers: {}
   packages/reflect-util:
@@ -29,7 +29,7 @@ importers:
       is-true-object: 'workspace:*'
   private-packages/tsconfig:
     specifiers: {}
-lockfileVersion: 5.1
+lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.8.3:
     dependencies:
@@ -1399,13 +1399,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
-  /typescript/3.8.3:
+  /typescript/4.0.5:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+      integrity: sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
   /unbzip2-stream/1.3.3:
     dependencies:
       buffer: 5.5.0
